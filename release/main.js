@@ -6,7 +6,9 @@ let currentTime = currentDate.getFullYear() + '-' +
                     currentDate.getDate() + ' at ' +
                     currentDate.getHours() + ':' +
                     currentDate.getMinutes() + ':' +
-                    currentDate.getSeconds();let userName = prompt("Hello, what's your name?")
+                    currentDate.getSeconds();
+                    
+let userName = prompt("Hello, what's your name?")
 document.body.innerHTML = '<h1>Hello, ' + userName + '!</h1>' + 
                             '<p>' + projectName + ' ' + versionNumber + 
                             ' accessed on: ' + currentTime + '</p>';
